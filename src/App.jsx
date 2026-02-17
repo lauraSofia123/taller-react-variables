@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Ejercicio1 from "./components/Ejercicio1";
+import Ejercicio2 from "./components/Ejercicio2";
+import Ejercicio3 from "./components/Ejercicio3";
+import Ejercicio4 from "./components/Ejercicio4";
+import Ejercicio6 from "./components/Ejercicio6";
+import Ejercicio7 from "./components/Ejercicio7";
+import Ejercicio8 from "./components/Ejercicio8";
+import Ejercicio9 from "./components/Ejercicio9";
+import Ejercicio10 from "./components/Ejercicio10";
+
+
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <Ejercicio1 />
+      <Ejercicio2 />
+      <Ejercicio3 />
+      <Ejercicio4 />
+      <Ejercicio6 />
+      <Ejercicio7 />
+      <Ejercicio8 />
+      <Ejercicio9 />
+      <Ejercicio10 />
+
+
+
+
+    </div>
+  );
 }
 
-export default App
+export default App;
